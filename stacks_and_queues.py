@@ -170,7 +170,7 @@ def three_point_two_c(self, val):
 
 """
 
-Q 3.4
+Q 3.3
 
 Pretty straightforward! However, there are two things to consider:
 
@@ -308,7 +308,7 @@ While stack not empty:
 
 """
 
-def sort_stack(stack):
+def three_point_six(stack):
 	sorted_stack = Stack(stack.pop())
 	while not stack.isEmpty():
 		n = stack.pop()
