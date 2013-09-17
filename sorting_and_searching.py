@@ -161,6 +161,8 @@ Q 9.5
 Use a binary sort, but instead of comparing directly to the value in the median,
 call another method that returns the 'closest' string to that value.
 
+TODO Fix
+
 """
 
 def nine_point_five(arr, s):
@@ -199,6 +201,8 @@ I'd assume that this means that a[x][0] > a[x][i] for all x and for all i > 0,
 and that a[0][x] > a[i][x] for all x and for all i > 0
 
 Then do a binary search!
+
+TODO Fix
 
 """
 
